@@ -9,9 +9,10 @@ import App from './components/app';
 import Home from './components/home';
 import Public from './components/public';
 import Account from './components/account';
+import Will from './components/will';
 import Signin from './components/auth/signin';
 import Signup from './components/auth/signup';
-import Signout from './components/auth/signout'
+import Signout from './components/auth/signout';
 import RequireAuth from './components/auth/require_auth';
 import reducers from './reducers';
 import { AUTH_USER } from './actions/types';
@@ -34,6 +35,7 @@ ReactDOM.render(
           <Route exact path="/" component= {Home} />
           <Route path="/public" component= {Public} />
           <Route path="/account" component= {RequireAuth(Account)} />
+          <Route path="/will" component = { Will } />
           <Route path="/signin" component= {Signin} />
           <Route path="/signup" component= {Signup} />
           <Route path="/signout" component= {Signout} />
