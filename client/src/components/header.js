@@ -40,7 +40,10 @@ class Header extends Component {
                             <NavLink className="nav-link" to="/account">Account</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/will">Will</NavLink>
+                            <NavLink className="nav-link" to="/about">About Us</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/blog">Blog</NavLink>
                         </li>
                     </ul>
                     <ul className="navbar-nav">
