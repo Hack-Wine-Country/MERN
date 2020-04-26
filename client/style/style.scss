@@ -7,7 +7,7 @@ body {
     nav {
         .navbar-toggler {
             outline: none;
-            border: none;   
+            border: none;
         }
     }
     .row{
@@ -21,12 +21,20 @@ body {
     }
 }
 
+.will{
+  border-radius: 70%;
+}
+
+.blog{
+  border-style: dotted;
+  border-color: green;
+}
 
 @media (max-width: 543px) {
     body {
     }
 }
 
-@media (min-width: 767px) { 
-    
+@media (min-width: 767px) {
+
  }
